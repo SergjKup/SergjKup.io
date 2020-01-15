@@ -1,0 +1,40 @@
+ul.castom {
+    list-style-type: none;
+
+}
+.circle::before{
+    content:"";
+    width: 5px;
+    height: 5px;
+    border-radius:50%;
+    background: red;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.circle::after{
+    content:"";
+    width: 5px;
+    height: 5px;
+    border-radius:50%;
+    background: red;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+ul.castom-two {
+    list-style-type: none;
+
+}
+.circle-two::before{
+    content:"\f118";
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    width: 10px;
+    height: 10px;
+    color:red;
+    display: inline-block;
+    vertical-align: start;
+    margin-right: 20px;
+}

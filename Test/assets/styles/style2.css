@@ -1,0 +1,40 @@
+.fix {
+    display: inline-block;
+    position: fixed;
+    width: 100%;
+    height: 20px;
+    background: darkblue;
+    
+}
+
+
+.moon{
+    display: inline-block;
+    position: absolute;
+    right: 50%;
+    width: 200px;
+    height: 200px;
+     border-radius: 50%;
+    border: 2px solid yellow;
+    background:yellow;
+    
+    
+
+}
+.imoon{
+    display: inline-block;
+    position: relative;
+    left:20%;
+    margin-top: calc(50%-150px);
+    margin-left: calc(50%-150px);
+     width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background:white;
+    
+}
+
+.bla{
+    font-size: 50px;
+}
